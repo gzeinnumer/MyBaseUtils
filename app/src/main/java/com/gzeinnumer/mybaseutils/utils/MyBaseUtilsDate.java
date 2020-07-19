@@ -57,4 +57,12 @@ public final class MyBaseUtilsDate {
         if (newDate != null) return format.format(newDate);
         else return "Date formater error";
     }
+
+    @SuppressLint("SimpleDateFormat")
+    public static String getCurrentTime(String requestFormat){
+        SimpleDateFormat format = new SimpleDateFormat(requestFormat);//dd/MM/yyyy
+        Date now = new Date();
+        String strDate = format.format(now);
+        return strDate;
+    }
 }

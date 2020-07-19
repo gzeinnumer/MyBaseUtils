@@ -47,5 +47,7 @@ public class MainActivity extends AppCompatActivity {
 
         String reformatOneString = MyBaseUtilsDate.reformatDate(value,"EEE, dd MMM yyyy hh:mm:ss Z","MMM dd,yyyy hh:mm a");
         Log.d(TAG, "onCreate: "+reformatOneString);
+
+        Log.d(TAG, "onCreate: "+MyBaseUtilsDate.getCurrentTime("yyyy-MM-dd"));
     }
 }
