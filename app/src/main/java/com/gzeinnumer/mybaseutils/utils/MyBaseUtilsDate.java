@@ -18,7 +18,7 @@ public final class MyBaseUtilsDate {
     public static String F_DATE="dd"; //01, 05, 10
     public static String F_DAY_NAME="EEE"; //Wed Thu
 
-    public static String F_HOUR="hh"; //1-23
+    public static String F_HOUR="HH"; //1-23
     public static String F_MINUTES="mm"; //1-60
     public static String F_SECOND="ss"; //1-60
     public static String F_AM_PM="a"; //AM PM
